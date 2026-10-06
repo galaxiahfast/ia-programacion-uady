@@ -1,33 +1,28 @@
-# Proyecto integrador
+# Proyecto final - Buscador semántico de productos
 
-Solución local que combina lo aprendido durante el curso y explica las decisiones tomadas.
+La consigna definitiva del curso es construir un servidor MCP que permita buscar, analizar y comparar productos de Amazon mediante embeddings.
 
-## Primer avance
+## Alcance confirmado
 
-Debe incluir:
+- Datos: Amazon Reviews 2023, categoría Electronics.
+- Muestra preparada: 600 productos y 6,992 reseñas.
+- Modelo: `sentence-transformers/all-MiniLM-L6-v2`.
+- Transporte: MCP Streamable HTTP en `http://127.0.0.1:8000/mcp`.
+- Fecha límite: **19 de octubre de 2026**.
 
-- un problema acotado;
-- datos con procedencia clara;
-- procesamiento funcional;
-- una primera operación SQL ejecutada desde Python.
+El servidor tendrá las herramientas `search_products`, `analyze_product` y `compare_products`. El código debe ser modular, tener pruebas, pasar mypy en modo estricto y explicar instalación, uso y limitaciones.
 
-Los documentos y prototipos del avance se guardarán en [`avances/`](avances/).
+Los archivos de trabajo se incorporarán en esta carpeta conforme se resuelva la consigna oficial. No se enviará nada al formulario sin autorización.
 
-## Entrega final
+## Estado
 
-Debe incluir:
+- [x] Consigna y datos identificados.
+- [ ] Notebook oficial ejecutada y entendida.
+- [ ] Lógica separada en módulos.
+- [ ] Servidor MCP y cliente HTTP funcionando.
+- [ ] Pruebas, Ruff y mypy aprobados.
+- [ ] Documentación y demostración terminadas.
 
-- persistencia;
-- un flujo de componentes con estado y fallos visibles;
-- pruebas;
-- documentación de instalación y uso;
-- una demostración que sustente las decisiones del proyecto.
+## Referencia
 
-## Definición de terminado
-
-- [ ] El problema y el alcance están descritos.
-- [ ] La procedencia y estructura de los datos están documentadas.
-- [ ] El proyecto puede instalarse desde cero siguiendo el README.
-- [ ] Existe un comando claro para ejecutar la solución.
-- [ ] Las pruebas automatizadas pasan.
-- [ ] Las decisiones importantes y limitaciones están explicadas.
+- [Consigna oficial](https://github.com/oscarnavmac/programacion_ai/tree/main/proyecto-final)
