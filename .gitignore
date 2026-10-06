@@ -1,0 +1,34 @@
+# Entornos y secretos locales
+.venv/
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+htmlcov/
+.coverage
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editores y sistema operativo
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Datos y resultados locales de gran tamaño
+data/raw/*
+outputs/*
+
+# Permite documentar las carpetas ignoradas
+!data/raw/README.md
+!outputs/README.md
