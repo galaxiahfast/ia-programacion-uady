@@ -1,0 +1,5 @@
+data/
+outputs/*
+!outputs/class_counts.csv
+*.executed.ipynb
+.slides-build/
