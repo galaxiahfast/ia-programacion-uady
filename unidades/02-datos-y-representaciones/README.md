@@ -21,6 +21,6 @@ Preparar, transformar, representar y explorar datos de forma reproducible para s
 ## Progreso
 
 - [x] NumPy — sesión 1 resuelta; no enviada
-- [ ] Pandas y datasets
+- [x] Pandas y datasets — sesión 2 resuelta; no enviada
 - [ ] Formatos y tensores
 - [ ] Matplotlib
