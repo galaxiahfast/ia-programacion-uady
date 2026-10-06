@@ -14,8 +14,6 @@ Dominar las herramientas modernas del lenguaje y establecer proyectos reproducib
 ## Materiales
 
 - [Clases y resúmenes](clases/)
-- [Apuntes](apuntes/)
-- [Ejercicios](ejercicios/)
 - [Tareas](tareas/)
 
 ## Entrega vigente
@@ -24,7 +22,7 @@ La Unidad 1 debe entregarse el **7 de octubre de 2026**. Consulta el [resumen de
 
 ## Progreso
 
-- [ ] Fundamentos
-- [ ] Contratos de datos
-- [ ] Flujos y recursos
-- [ ] Reproducibilidad y calidad
+- [x] Fundamentos — sesiones 1 y 2 resueltas; no enviadas
+- [x] Contratos de datos — práctica de Pydantic resuelta; no enviada
+- [x] Flujos y recursos — práctica de iteración y concurrencia resuelta; no enviada
+- [x] Reproducibilidad y calidad — proyecto del catálogo resuelto; no enviado

@@ -72,7 +72,7 @@ En una notebook se puede usar `await` directamente porque Jupyter ya tiene un ev
 
 ### Pydantic
 
-La práctica de ocho ejercicios sigue pendiente en este repositorio. En esta clase se explicaron los ejercicios 7 y 8; el octavo fue indicado expresamente como trabajo independiente.
+En esta clase se explicaron los ejercicios 7 y 8; el octavo fue indicado expresamente como trabajo independiente. La práctica completa quedó resuelta posteriormente en la [carpeta de la tarea](../../tareas/sesion-02-tipado-pydantic/).
 
 ### Iteración, recursos y concurrencia
 
@@ -83,7 +83,7 @@ La nueva notebook contiene cuatro ejercicios:
 3. Ejecutar dos lecturas concurrentes mediante `TaskGroup`.
 4. Comprobar la limpieza de una corrutina cancelada por un timeout.
 
-En esta grabación se explican los ejercicios 1 y 2. La parte de concurrencia continúa en la siguiente clase. Ninguno está resuelto localmente todavía.
+En esta grabación se explican los ejercicios 1 y 2. La parte de concurrencia continúa en la siguiente clase. Los cuatro ejercicios quedaron resueltos posteriormente en la [carpeta de la tarea](../../tareas/sesion-03-iteracion-recursos-concurrencia/).
 
 ## Materiales
 

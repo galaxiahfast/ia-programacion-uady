@@ -2,7 +2,7 @@
 
 Evidencias evaluables de Python moderno, validación y calidad.
 
-## Pendientes
+## Estado
 
 - [x] [Sesión 1: curso acelerado y Zen de Python](sesion-01-curso-acelerado/) — resuelta, no enviada.
 - [x] [Sesión 2: tipado y Pydantic](sesion-02-tipado-pydantic/) — ocho ejercicios, módulo con `count_labels` y reporte JSON resueltos y verificados; no enviada.

@@ -28,7 +28,7 @@ python -m mypy --strict lesson_models.py
 Success: no issues found in 1 source file
 ```
 
-El reporte distingue registros rechazados de errores individuales: el registro de prueba con dos campos inválidos produce dos incidencias en la misma posición. La ida y vuelta JSON se comprueba dentro de la notebook.
+La notebook también comprueba que un registro con dos campos inválidos produce dos incidencias en la misma posición. El archivo JSON conserva el reporte principal de la práctica y su reconstrucción se verifica correctamente.
 
 ## Estado
 

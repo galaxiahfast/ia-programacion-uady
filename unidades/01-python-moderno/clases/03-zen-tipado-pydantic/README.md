@@ -63,14 +63,14 @@ Pydantic puede convertir algunos valores compatibles, como un texto numérico a 
 
 También permite agregar reglas con `Field`, validar correos, restringir valores con `Literal` y construir modelos anidados. Esto resulta útil para APIs, respuestas de modelos de lenguaje y datos que vienen de archivos o bases de datos.
 
-## Pendientes registrados
+## Actividades registradas
 
-No los voy a resolver todavía; quedan guardados para revisarlos al final:
+Estas actividades se presentaron en esta clase y posteriormente quedaron resueltas:
 
 - [x] Refactorización del Zen de Python. Resuelta, no enviada.
-- [ ] Ocho ejercicios de la notebook de tipado y Pydantic.
-- [ ] Módulo `.py` con `count_labels` y comprobación de mypy sin errores.
-- [ ] Reporte JSON del ejercicio 8 y comprobación de que puede reconstruirse.
+- [x] Ocho ejercicios de la notebook de tipado y Pydantic. Resueltos, no enviados.
+- [x] Módulo `.py` con `count_labels` y comprobación de mypy sin errores.
+- [x] Reporte JSON del ejercicio 8 y comprobación de reconstrucción.
 
 ## Materiales
 

@@ -68,7 +68,7 @@ El profesor comentó que este tipo de validación se usa en APIs, configuracione
 
 ## Ejercicios y estado
 
-La clase trabajó en pantalla los primeros cinco ejercicios, pero todavía no los hemos guardado ni resuelto en este repositorio:
+Durante la clase se trabajaron en pantalla los primeros cinco ejercicios:
 
 1. Anotar `select_scores` sin cambiar su comportamiento.
 2. Corregir un contrato y conseguir que mypy termine sin errores.
@@ -82,7 +82,7 @@ Quedaron para continuar:
 7. Comprobar lotes vacíos, rechazados y mayores al máximo.
 8. Crear `count_labels`, ejecutar mypy y generar el reporte JSON.
 
-Todos siguen anotados como pendientes para revisarlos juntos al final.
+Los ocho ejercicios quedaron resueltos posteriormente en la [carpeta de la tarea](../../tareas/sesion-02-tipado-pydantic/).
 
 ## Lo que no fue tarea
 
