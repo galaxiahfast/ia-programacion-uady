@@ -1,128 +1,76 @@
-# Clase 01 · Introducción y curso acelerado de Python
+# Clase 1 - Introducción y repaso de Python
 
-> Duración de la grabación: **1 h 46 min**  
-> Resumen actualizado: **6 de octubre de 2026**  
-> Fuente: transcripción de la clase, diapositivas y repositorio oficial del profesor.
+La grabación dura 1 hora con 46 minutos. No hace falta verla completa si ya he trabajado con Python.
 
-## Lo esencial en un minuto
+## Lo urgente
 
-- El curso no se centra en entrenar modelos: busca construir software de IA legible, reproducible y fácil de integrar.
-- La primera sesión utilizó la notebook **Curso acelerado de Python para IA** y llegó hasta comprehensions y el ejercicio de temperaturas.
-- Hay que entregar **dos notebooks completas**: 11 ejercicios del curso acelerado y uno del Zen de Python.
-- La instrucción vigente del repositorio oficial fija la entrega de la Unidad 1 para el **7 de octubre de 2026**.
-- Para esta sesión basta Google Colab; todavía no es necesario preparar un entorno local.
+La entrega de la Unidad 1 aparece en el repositorio del profesor con fecha del **7 de octubre de 2026**.
 
-## Acción prioritaria
+Para esta primera sesión hay que completar dos notebooks:
 
-1. Abrir y guardar una copia de las dos notebooks en Google Drive.
-2. Resolver los 12 ejercicios y conservar las predicciones, explicaciones y comprobaciones solicitadas.
-3. Reiniciar el entorno y ejecutar todas las celdas antes de entregar.
-4. Volver a comentar las líneas que provocan errores en el laboratorio correspondiente.
-5. Enviar las copias mediante el formulario oficial antes de la fecha límite.
+- 11 ejercicios del curso acelerado de Python.
+- 1 ejercicio sobre el Zen de Python.
 
-| Material | Enlace |
-| --- | --- |
-| Notebook 1 · Curso acelerado | [Abrir en Google Colab](https://colab.research.google.com/drive/1Q4dLL8eTF55DsSLiOXE2frOw3iFhuHkL) |
-| Notebook 2 · Zen de Python | [Abrir en Google Colab](https://colab.research.google.com/drive/1MTMMN5ifsWDA2aLzHCqRdMRmhp51K0jM) |
-| Instrucciones vigentes | [Práctica de la sesión](https://github.com/oscarnavmac/programacion_ai/blob/main/unidad-01-python-moderno/sesion-01-curso-acelerado-python/PRACTICA.md) |
-| Entrega de Unidad 1 | [Formulario oficial](https://docs.google.com/forms/d/e/1FAIpQLSdTJ2vU04VfIpw1Tst_T_0g0tlbE-n6ZI81nrG0RQJMReAtaQ/viewform?usp=publish-editor) |
+Ya guardé copias de las dos en la carpeta de [tareas](../../tareas/sesion-01-curso-acelerado/).
 
-## Ruta rápida por la grabación
+## Partes de la grabación que sí revisaría
 
-Si ya conoces Python, no hace falta ver toda la clase. Estos son los fragmentos de mayor valor:
+- `20:39 a 24:00`: cómo abrir la notebook y guardar una copia en Colab.
+- `44:46 a 53:35`: listas mutables, alias y copias. Esta parte sí es importante.
+- `1:05:01 a 1:12:03`: diferencia entre cero, valores vacíos y `None`.
+- `1:28:02 a 1:31:19`: explicación de lo que se entregará.
+- `1:32:19 a 1:40:38`: comprehensions, `enumerate`, `zip` y ejercicio de temperaturas.
 
-| Minutos | Prioridad | Contenido |
-| --- | --- | --- |
-| `20:39–24:00` | Alta | Cómo localizar, abrir y guardar una copia de la notebook en Colab. |
-| `44:46–53:35` | Alta | Mutabilidad, alias, copia superficial y estructuras anidadas. Es la explicación técnica más importante de la primera mitad. |
-| `1:05:01–1:12:03` | Alta | Valores interpretados como falsos y diferencia entre `0` y `None`. |
-| `1:28:02–1:31:19` | Alta | Qué esperaba el profesor de las notebooks. El medio y la fecha mencionados ahí ya fueron actualizados en el repositorio. |
-| `1:32:19–1:40:38` | Alta | Comprehensions, `enumerate`, `zip` y ejercicio de conversión de temperaturas. |
-| `1:15:10–1:27:42` | Opcional | Experiencia profesional del profesor: agentes, integración de modelos, MCP, A2A, LangGraph y despliegue. |
-| `1:43:36–1:46:22` | Media | Cierre, contenido pendiente y recordatorio sobre guardar las notebooks. |
+Eso suma cerca de media hora. Como tema adicional, entre `1:15:10 y 1:27:42` el profesor cuenta ejemplos de su trabajo con agentes, MCP, LangGraph y robots industriales.
 
-La ruta de prioridad alta dura aproximadamente **31 minutos**. Si los fundamentos de Python también son nuevos, conviene agregar estos bloques:
+## Lo que vimos
 
-- `25:32–36:18`: variables, tipos, operadores, cadenas y primer ejercicio.
-- `36:18–44:46`: listas, tuplas, diccionarios, conjuntos, índices y slicing.
-- `54:20–1:04:42`: tuplas, diccionarios, conjuntos y conversiones entre colecciones.
+- El objetivo de la materia es aprender a construir programas para sistemas de IA, no entrenar modelos desde cero.
+- Un programa recibe datos, aplica reglas y produce un resultado. También debe decidir qué hacer cuando faltan datos.
+- Python se usa mucho en IA porque es legible y tiene bastantes bibliotecas.
+- Las notebooks guardan variables en memoria, por lo que el orden de ejecución importa.
+- Se repasaron cadenas, números, booleanos, `None`, listas, tuplas, diccionarios y conjuntos.
+- Una lista es mutable. Si dos variables apuntan a la misma lista, cambiar una puede cambiar la otra.
+- Una copia superficial no separa las listas u objetos que estén anidados.
+- `0` puede ser un dato válido y no debe confundirse con `None`.
+- Las comprehensions sirven para transformar o filtrar colecciones cuando la expresión sigue siendo fácil de leer.
+- `enumerate` agrega la posición al recorrer una colección.
+- `zip` permite recorrer varias colecciones al mismo tiempo y se detiene en la más corta.
 
-## Qué explicó el profesor
+## Hasta dónde llegó la clase
 
-### Enfoque de la asignatura
+Se llegó al ejercicio de transformar temperaturas usando un ciclo y una comprehension. Quedó pendiente aproximadamente la mitad de la primera notebook y toda la notebook del Zen de Python.
 
-Programar consiste en expresar una tarea mediante reglas: identificar entradas, operaciones, salidas y casos en los que faltan datos. Python se utiliza por su legibilidad, su biblioteca estándar y su ecosistema para datos e inteligencia artificial.
+## Ejercicios pendientes
 
-Las primeras clases usan notebooks para practicar, pero el curso avanzará hacia proyectos de Python reales, reproducibles y ejecutables por otras personas.
+### Curso acelerado
 
-### Notebooks y estado
+- [ ] Una frase con datos.
+- [ ] Una lista dentro de otra.
+- [ ] Copiar sin compartir la lista.
+- [ ] Elegir una estructura.
+- [ ] Cero no es ausencia.
+- [ ] Transformar y filtrar.
+- [ ] Promedio sin inventar datos.
+- [ ] Resumir grupos.
+- [ ] Instancias y alias.
+- [ ] Estado independiente.
+- [ ] Comprobar el contrato.
 
-Una notebook mantiene variables en memoria dentro de una sesión. Por eso, ejecutar celdas fuera de orden puede producir resultados engañosos. Antes de entregar hay que reiniciar el entorno y ejecutar todo desde arriba.
+### Zen de Python
 
-### Datos y colecciones
+- [ ] Refactorización siguiendo el Zen.
 
-- Tipos básicos: cadenas, enteros, flotantes, booleanos y `None`.
-- Colecciones: listas, tuplas, diccionarios y conjuntos.
-- Las listas y los diccionarios son mutables; dos variables pueden apuntar al mismo objeto.
-- Una copia superficial no duplica los objetos mutables anidados. Para independizarlos hay que copiarlos también o usar una copia profunda cuando corresponda.
-- Los conjuntos eliminan duplicados y permiten intersección, unión y diferencia.
+## Antes de entregar
 
-### Control de flujo
+- [ ] Completar las celdas marcadas como ejercicios.
+- [ ] Dejar las explicaciones que pida cada ejercicio.
+- [ ] Reiniciar el entorno y ejecutar todas las celdas desde arriba.
+- [ ] Volver a comentar las líneas que provocan errores intencionales.
+- [ ] Subir las dos notebooks al [formulario de la Unidad 1](https://docs.google.com/forms/d/e/1FAIpQLSdTJ2vU04VfIpw1Tst_T_0g0tlbE-n6ZI81nrG0RQJMReAtaQ/viewform?usp=publish-editor).
 
-Python interpreta `False`, `None`, cero y las colecciones vacías como valores falsos. Esto no significa que sean equivalentes: cuando cero es un resultado válido, se debe comprobar explícitamente `is None` para distinguirlo de un dato ausente.
+## Enlaces
 
-Se repasaron `if`, `for`, `while`, comprehensions, `enumerate` y `zip`. Las comprehensions son convenientes cuando la transformación sigue siendo breve y legible; un ciclo normal es preferible cuando la lógica crece.
-
-### Aplicaciones de IA
-
-El profesor distinguió dos caminos:
-
-- **Desarrollar modelos:** entrenar y evaluar modelos con bases teóricas y herramientas como PyTorch.
-- **Integrar modelos:** incorporar modelos existentes en aplicaciones, agentes, servidores y flujos de trabajo.
-
-Como ejemplo profesional describió un sistema que recomienda componentes para robots industriales. También explicó MCP como un protocolo estándar para exponer herramientas a agentes y mencionó A2A y flujos representados como grafos.
-
-## Lista de ejercicios de la sesión
-
-### Notebook 1 · Curso acelerado
-
-- [ ] 1. Una frase con datos.
-- [ ] 2. Una lista dentro de otra.
-- [ ] 3. Copiar sin compartir la lista.
-- [ ] 4. Elegir una estructura.
-- [ ] 5. Cero no es ausencia.
-- [ ] 6. Transformar y filtrar.
-- [ ] 7. Promedio sin inventar datos.
-- [ ] 8. Resumir grupos.
-- [ ] 9. Instancias y alias.
-- [ ] 10. Estado independiente.
-- [ ] 11. Comprobar el contrato.
-
-### Notebook 2 · Zen de Python
-
-- [ ] 1. Refactorización siguiendo el Zen.
-
-## Lo dicho en clase frente a la instrucción vigente
-
-Durante la grabación el profesor comentó que todavía no había definido la fecha ni el medio de entrega y que probablemente habría dos semanas o más. Esa información quedó desactualizada.
-
-El repositorio oficial ahora indica:
-
-- **fecha límite:** 7 de octubre de 2026;
-- **medio:** formulario de Google enlazado arriba;
-- **entregables:** las dos notebooks con los 12 ejercicios resueltos;
-- **criterio de verificación:** reiniciar y ejecutar todas las celdas sin dejar activos los errores intencionales.
-
-El profesor permitió usar asistentes de IA, con la condición de comprender y poder explicar el código generado.
-
-## Qué continúa
-
-La grabación terminó aproximadamente a la mitad de la primera notebook. Quedaron para estudio o sesiones posteriores las funciones, ordenamiento y agrupación, excepciones, `assert`, programación orientada a objetos, el caso integrador y la notebook completa del Zen de Python.
-
-## Fuentes verificadas
-
-- [Repositorio oficial del curso](https://github.com/oscarnavmac/programacion_ai)
-- [Sesión 1 en el repositorio oficial](https://github.com/oscarnavmac/programacion_ai/tree/main/unidad-01-python-moderno/sesion-01-curso-acelerado-python)
-- [Presentación de introducción](https://drive.google.com/file/d/1Ls0122l-Fyyb7-adEzKu6HVJqUk8rHun/view?usp=sharing)
-
-La verificación del repositorio oficial se hizo el 6 de octubre de 2026 sobre el commit `27e3c2b`.
+- [Material de la sesión en el repositorio del profesor](https://github.com/oscarnavmac/programacion_ai/tree/main/unidad-01-python-moderno/sesion-01-curso-acelerado-python)
+- [Notebook 1 en Colab](https://colab.research.google.com/drive/1Q4dLL8eTF55DsSLiOXE2frOw3iFhuHkL)
+- [Notebook 2 en Colab](https://colab.research.google.com/drive/1MTMMN5ifsWDA2aLzHCqRdMRmhp51K0jM)
