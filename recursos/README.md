@@ -12,3 +12,8 @@ Referencias y materiales que se utilizan en más de una unidad.
 - Notebook 2: las 19 reglas del Zen de Python.
 
 Cuando se agregue un recurso, conviene registrar su origen, la fecha de consulta y para qué se utilizó.
+
+## Plantillas
+
+- [Plantilla para apuntes](plantillas/apunte.md)
+- [Plantilla para ejercicios y tareas](plantillas/entrega.md)
