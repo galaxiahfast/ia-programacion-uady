@@ -13,9 +13,14 @@ Dominar las herramientas modernas del lenguaje y establecer proyectos reproducib
 
 ## Materiales
 
+- [Clases y resúmenes](clases/)
 - [Apuntes](apuntes/)
 - [Ejercicios](ejercicios/)
 - [Tareas](tareas/)
+
+## Entrega vigente
+
+La Unidad 1 debe entregarse el **7 de octubre de 2026**. Consulta el [resumen de la clase 01](clases/01-curso-acelerado-python/) para ver los materiales, los 12 ejercicios y el formulario oficial.
 
 ## Progreso
 

@@ -1,5 +1,7 @@
 # Introducción a la asignatura y a Python
 
+> Para la guía completa con minutos recomendados, tareas y enlaces vigentes, consulta el [resumen de la clase 01](../clases/01-curso-acelerado-python/).
+
 ## Propósito del curso
 
 La asignatura busca desarrollar software para trabajar con datos: programas que validen información, transformen datos y conecten componentes de un sistema de inteligencia artificial.
