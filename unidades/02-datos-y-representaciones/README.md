@@ -13,6 +13,7 @@ Preparar, transformar, representar y explorar datos de forma reproducible para s
 
 ## Materiales
 
+- [Clases](clases/)
 - [Apuntes](apuntes/)
 - [Ejercicios](ejercicios/)
 - [Tareas](tareas/)
