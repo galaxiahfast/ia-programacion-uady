@@ -66,9 +66,9 @@ El último ejercicio comprueba ese comportamiento con `assert`. A eso se refiere
 
 ## Qué quedó pendiente
 
-- [ ] Revisar que los 11 ejercicios de la primera notebook estén completos.
-- [ ] Resolver el ejercicio de refactorización de la notebook del Zen.
-- [ ] Reiniciar el kernel y ejecutar ambas notebooks completas.
+- [x] Revisar que los 11 ejercicios de la primera notebook estén completos.
+- [x] Resolver el ejercicio de refactorización de la notebook del Zen.
+- [x] Reiniciar el kernel y ejecutar ambas notebooks completas.
 - [ ] Subirlas al [formulario de la Unidad 1](https://docs.google.com/forms/d/e/1FAIpQLSdTJ2vU04VfIpw1Tst_T_0g0tlbE-n6ZI81nrG0RQJMReAtaQ/viewform?usp=publish-editor).
 
 ## Algo que mencionó al final

@@ -41,32 +41,32 @@ Eso suma cerca de media hora. Como tema adicional, entre `1:15:10 y 1:27:42` el 
 
 Se llegó al ejercicio de transformar temperaturas usando un ciclo y una comprehension. Quedó pendiente aproximadamente la mitad de la primera notebook y toda la notebook del Zen de Python.
 
-## Ejercicios pendientes
+## Ejercicios resueltos
 
 ### Curso acelerado
 
-- [ ] Una frase con datos.
-- [ ] Una lista dentro de otra.
-- [ ] Copiar sin compartir la lista.
-- [ ] Elegir una estructura.
-- [ ] Cero no es ausencia.
-- [ ] Transformar y filtrar.
-- [ ] Promedio sin inventar datos.
-- [ ] Resumir grupos.
-- [ ] Instancias y alias.
-- [ ] Estado independiente.
-- [ ] Comprobar el contrato.
+- [x] Una frase con datos.
+- [x] Una lista dentro de otra.
+- [x] Copiar sin compartir la lista.
+- [x] Elegir una estructura.
+- [x] Cero no es ausencia.
+- [x] Transformar y filtrar.
+- [x] Promedio sin inventar datos.
+- [x] Resumir grupos.
+- [x] Instancias y alias.
+- [x] Estado independiente.
+- [x] Comprobar el contrato.
 
 ### Zen de Python
 
-- [ ] Refactorización siguiendo el Zen.
+- [x] Refactorización siguiendo el Zen.
 
 ## Antes de entregar
 
-- [ ] Completar las celdas marcadas como ejercicios.
-- [ ] Dejar las explicaciones que pida cada ejercicio.
-- [ ] Reiniciar el entorno y ejecutar todas las celdas desde arriba.
-- [ ] Volver a comentar las líneas que provocan errores intencionales.
+- [x] Completar las celdas marcadas como ejercicios.
+- [x] Dejar las explicaciones que pida cada ejercicio.
+- [x] Reiniciar el entorno y ejecutar todas las celdas desde arriba.
+- [x] Volver a comentar las líneas que provocan errores intencionales.
 - [ ] Subir las dos notebooks al [formulario de la Unidad 1](https://docs.google.com/forms/d/e/1FAIpQLSdTJ2vU04VfIpw1Tst_T_0g0tlbE-n6ZI81nrG0RQJMReAtaQ/viewform?usp=publish-editor).
 
 ## Enlaces
