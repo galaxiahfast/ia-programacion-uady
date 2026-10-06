@@ -1,0 +1,34 @@
+[project]
+name = "amazon-product-mcp"
+version = "0.1.0"
+description = "Semantic product search and review analysis over MCP"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "mcp>=2,<3",
+    "numpy>=2.2,<3",
+    "sentence-transformers>=6.1,<7",
+]
+
+[dependency-groups]
+dev = ["mypy>=1.18,<2", "pytest>=8,<10", "ruff>=0.16,<0.18"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+target-version = "py312"
+line-length = 88
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "I", "UP", "B"]
+
+[tool.mypy]
+python_version = "3.12"
+strict = true
+files = ["server.py", "client.py", "main.py", "support", "tests"]
+
+[[tool.mypy.overrides]]
+module = ["sentence_transformers.*"]
+ignore_missing_imports = true
