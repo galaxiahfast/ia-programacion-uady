@@ -4,7 +4,7 @@ La grabación dura 1 hora con 46 minutos. No hace falta verla completa si ya he 
 
 ## Lo urgente
 
-La entrega de la Unidad 1 aparece en el repositorio del profesor con fecha del **7 de octubre de 2026**.
+La entrega de la Unidad 1 aparece en el repositorio del profesor con fecha actualizada del **12 de octubre de 2026**.
 
 Para esta primera sesión hay que completar dos notebooks:
 

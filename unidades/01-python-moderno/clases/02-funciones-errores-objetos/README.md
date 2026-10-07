@@ -8,7 +8,7 @@ No dejaron una tarea nueva. La entrega sigue siendo la misma de la sesión 1:
 
 - terminar los 11 ejercicios de la notebook del curso acelerado;
 - resolver el ejercicio de la notebook del Zen de Python;
-- entregar las dos notebooks el **7 de octubre de 2026**.
+- entregar las dos notebooks el **12 de octubre de 2026**.
 
 Las copias para trabajar están en la carpeta de [tareas](../../tareas/sesion-01-curso-acelerado/).
 

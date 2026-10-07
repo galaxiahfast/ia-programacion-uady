@@ -28,7 +28,7 @@ El resultado se expone mediante un servidor MCP por HTTP en `http://127.0.0.1:80
 - `analyze_product(product_id)`: resume la información y reseñas de un producto;
 - `compare_products(product_ids)`: compara varios productos.
 
-No basta con que funcione en la notebook. El código debe separarse en módulos, tener errores claros, pasar mypy en modo estricto e incluir instrucciones de instalación, ejemplos y limitaciones. La fecha límite indicada es el **19 de octubre de 2026**.
+No basta con que funcione en la notebook. El código debe separarse en módulos, tener errores claros, pasar mypy en modo estricto e incluir instrucciones de instalación, ejemplos y limitaciones. En la clase 9 la fecha límite se cambió al **26 de octubre de 2026**.
 
 ## Lo principal de pandas
 
@@ -48,7 +48,7 @@ La sesión también introduce `Dataset` y `DataLoader`: el primero representa lo
 
 - La práctica de pandas tiene cinco ejercicios. Los primeros cuatro están en la notebook y el quinto agrega un reporte de edades faltantes por clase, pruebas y un CSV.
 - La práctica de PyTorch tiene cinco ejercicios. Los primeros cuatro están en la notebook y el quinto amplía el resumen de clases con proporciones, incluyendo clases con conteo cero.
-- El proyecto final queda asignado con fecha límite del 19 de octubre.
+- El proyecto final queda asignado; su fecha actualizada es el 26 de octubre.
 
 Las prácticas se resolverán aquí y quedarán marcadas como **resueltas, no enviadas**. No se hará ningún envío a Forms.
 

@@ -4,6 +4,10 @@
 
 Conectar almacenamiento, consultas y componentes de aplicación mediante contratos claros y flujos con estado.
 
+## Entrega vigente
+
+La fecha límite actualizada de la Unidad 3 es el **19 de octubre de 2026**.
+
 ## Temas
 
 - **SQL con Python:** conexión, consultas parametrizadas y persistencia.

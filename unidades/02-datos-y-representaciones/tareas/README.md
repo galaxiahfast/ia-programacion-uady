@@ -9,3 +9,5 @@ Evidencias evaluables de procesamiento y representación de datos.
 - [x] [Sesión 3: tensores y datasets con PyTorch](sesion-03-pytorch/) — notebook, proporciones por clase y 15 pruebas resueltos; no enviada.
 
 Aunque se resuelvan aquí, las actividades permanecerán como **no enviadas** hasta que el alumno utilice el formulario de la unidad.
+
+Fecha límite actualizada: **19 de octubre de 2026**.

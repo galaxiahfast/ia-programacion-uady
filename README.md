@@ -48,4 +48,4 @@ Cada unidad sigue la misma convención:
 
 ## Estado
 
-Curso en progreso. La entrega de la Unidad 1 vence el **7 de octubre de 2026**; los detalles y la ruta rápida de la grabación están en el [resumen de la primera clase](unidades/01-python-moderno/clases/01-curso-acelerado-python/).
+Curso en progreso. La entrega de la Unidad 1 vence el **12 de octubre de 2026**; los detalles y la ruta rápida de la grabación están en el [resumen de la primera clase](unidades/01-python-moderno/clases/01-curso-acelerado-python/).

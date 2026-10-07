@@ -66,7 +66,7 @@ La entrega de la Unidad 1 reúne cuatro trabajos:
 3. Notebook con cuatro ejercicios de iteración, archivos y concurrencia.
 4. Proyecto reproducible del catálogo: cinco ejercicios de aplicación y cuatro de calidad.
 
-La fecha indicada es el **7 de octubre de 2026**. Los cuatro trabajos quedaron resueltos y comprobados en este repositorio, pero **no se ha enviado nada al formulario**. La entrega formal queda a cargo del alumno.
+La fecha actualizada es el **12 de octubre de 2026**. Los cuatro trabajos quedaron resueltos y comprobados en este repositorio, pero **no se ha enviado nada al formulario**. La entrega formal queda a cargo del alumno.
 
 ## Materiales
 

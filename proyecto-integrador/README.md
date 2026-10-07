@@ -86,6 +86,8 @@ Como ejemplo de análisis, el JBL Charge 5 (`B0BCTJMN63`) tiene siete reseñas s
 
 ## Estado de la entrega
 
+Fecha límite actualizada: **26 de octubre de 2026**.
+
 - [x] Datos y configuración incluidos.
 - [x] Embeddings combinados en proporción 50/50.
 - [x] Tres herramientas disponibles por Streamable HTTP.

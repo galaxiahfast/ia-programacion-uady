@@ -81,7 +81,7 @@ La sesión 1 de la Unidad 2 reúne **11 ejercicios**:
 3. Dos ejercicios en la notebook del reporte.
 4. El ejercicio 11 además requiere `measurements/selection.py` y pruebas.
 
-En esta clase se explican los ejercicios 1 a 5. Vistas, copias, vectorización, broadcasting y el proyecto de reporte quedan para la siguiente grabación. La fecha límite de la Unidad 2 es el **13 de octubre de 2026**.
+En esta clase se explican los ejercicios 1 a 5. Vistas, copias, vectorización, broadcasting y el proyecto de reporte quedan para la siguiente grabación. La fecha límite actualizada de la Unidad 2 es el **19 de octubre de 2026**.
 
 Los ejercicios se resolverán en este repositorio, pero **no se enviarán al formulario**.
 

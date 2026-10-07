@@ -4,6 +4,10 @@
 
 Preparar, transformar, representar y explorar datos de forma reproducible para su uso en sistemas de inteligencia artificial.
 
+## Entrega vigente
+
+La fecha límite actualizada de la Unidad 2 es el **19 de octubre de 2026**.
+
 ## Temas
 
 - **NumPy:** arreglos, ejes, operaciones vectorizadas y broadcasting.

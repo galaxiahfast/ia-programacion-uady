@@ -1,6 +1,6 @@
 # Tarea de la sesión 1
 
-Fecha límite indicada por el profesor: **7 de octubre de 2026**.
+Fecha límite actualizada por el profesor: **12 de octubre de 2026**.
 
 ## Archivos
 

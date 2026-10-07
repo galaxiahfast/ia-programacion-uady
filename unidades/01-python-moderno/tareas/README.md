@@ -9,4 +9,4 @@ Aquí están las cuatro prácticas de la unidad.
 - [x] [Sesión 3: iteración, recursos y concurrencia](sesion-03-iteracion-recursos-concurrencia/) — cuatro ejercicios listos; no enviada.
 - [x] [Sesión 4: organización, reproducibilidad y MCP local](sesion-04-catalogo-reproducible/) — proyecto y pruebas listos; no enviado.
 
-La fecha límite indicada por el profesor es el **7 de octubre de 2026**. Las prácticas están terminadas, pero todavía falta subirlas al formulario.
+La fecha límite actualizada por el profesor es el **12 de octubre de 2026**. Las prácticas están terminadas, pero todavía falta subirlas al formulario.
