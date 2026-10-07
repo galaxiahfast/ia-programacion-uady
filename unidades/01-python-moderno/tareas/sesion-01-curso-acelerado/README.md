@@ -7,9 +7,9 @@ Fecha límite indicada por el profesor: **7 de octubre de 2026**.
 - [`u1_n1_curso_acelerado_python.ipynb`](u1_n1_curso_acelerado_python.ipynb): 11 ejercicios.
 - [`u1_n2_zen_de_python.ipynb`](u1_n2_zen_de_python.ipynb): 1 ejercicio.
 
-Los archivos partieron de copias limpias tomadas del repositorio del profesor y los ejercicios se resolvieron directamente en ellos.
+Usé las notebooks del profesor y resolví los ejercicios directamente en ellas.
 
-Estado: **resueltas y ejecutadas completas el 6 de octubre de 2026**.
+Estado: **terminadas y ejecutadas completas el 6 de octubre de 2026**.
 
 ## Para entregar
 

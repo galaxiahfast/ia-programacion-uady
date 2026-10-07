@@ -1,6 +1,6 @@
 # Catálogo de cursos reproducible con MCP
 
-Proyecto de la sesión 4 con los nueve ejercicios resueltos: cinco sobre la aplicación y cuatro sobre calidad. La misma búsqueda se puede usar desde la terminal o como herramienta MCP local.
+En esta carpeta resolví los nueve ejercicios de la sesión 4. La búsqueda funciona desde la terminal y también como herramienta MCP local.
 
 ## Preparación
 
@@ -8,7 +8,7 @@ Proyecto de la sesión 4 con los nueve ejercicios resueltos: cinco sobre la apli
 uv sync --locked
 ```
 
-El proyecto se verificó con Python 3.12.3. No se incluye `.venv`: uv la reconstruye usando `pyproject.toml`, `uv.lock` y `.python-version`.
+Lo probé con Python 3.12.3. No incluí `.venv` porque uv puede volver a crearla con los archivos del proyecto.
 
 ## Uso
 
@@ -40,7 +40,7 @@ El decorador `@mcp.tool()` registra `find_courses` al importar el módulo. Regis
 
 ### 2. Datos y argumentos
 
-`data/extra_courses.json` agrega `PY03`, **Practical Python automation**. La consulta con `--catalog` devuelve `PY01`, `PY02` y `PY03` y termina con código 0. Una ruta inexistente termina con código 1 y no escribe resultados en stdout.
+En `data/extra_courses.json` agregué `PY03`, **Automatización práctica con Python**. La consulta con `--catalog` devuelve `PY01`, `PY02` y `PY03`. Una ruta inexistente termina con código 1 y no escribe resultados en stdout.
 
 El servidor MCP conserva `data/courses.json` como catálogo predeterminado.
 
@@ -50,7 +50,7 @@ El servidor MCP conserva `data/courses.json` como catálogo predeterminado.
 - INFO muestra solo el resumen.
 - ERROR no muestra mensajes durante una consulta exitosa.
 
-Con `--log-level ERROR --log-file logs/app.log`, la consola filtra DEBUG e INFO, pero el archivo los conserva porque su handler acepta mensajes desde DEBUG. Los resultados JSON salen por stdout y el logging usa stderr. Esto es indispensable en `server.py`, donde stdout pertenece al protocolo MCP.
+Con `--log-level ERROR --log-file logs/app.log`, la consola oculta DEBUG e INFO, pero esos mensajes sí se guardan en el archivo. El JSON usa stdout y los logs usan stderr; así no se mezclan con la comunicación de MCP.
 
 ### 4. Diagnóstico
 
@@ -78,12 +78,12 @@ Una lista vacía significa que la búsqueda fue válida pero no encontró coinci
 
 ## Ejercicios de calidad
 
-Se agregaron estas pruebas:
+Para los ejercicios de calidad agregué dos pruebas:
 
 - un curso con horas negativas debe ser rechazado;
 - una ejecución de consola con catálogo inexistente debe salir con código 1 y stdout vacío.
 
-También se introdujo temporalmente un `import json` sin usar. Ruff señaló `F401`; después de quitarlo, el proyecto volvió a pasar completo.
+También probé un `import json` sin usar. Ruff marcó `F401` y, después de quitarlo, la revisión volvió a pasar.
 
 ```bash
 uv run --locked ruff check .
@@ -101,8 +101,8 @@ Success: no issues found in 6 source files
 8 passed
 ```
 
-Desde una copia limpia también se ejecutaron `uv sync --locked`, el cliente MCP y las cuatro comprobaciones. Todos terminaron con código 0.
+Finalmente ejecuté `uv sync --locked`, el cliente MCP y las cuatro comprobaciones desde una copia limpia. Todo terminó con código 0.
 
 ## Estado
 
-**Resuelto y verificado; no enviado al formulario.**
+**Terminado y probado; todavía no enviado al formulario.**

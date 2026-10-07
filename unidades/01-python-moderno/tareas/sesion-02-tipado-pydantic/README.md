@@ -1,6 +1,6 @@
 # Sesión 2 - Tipado y Pydantic
 
-Práctica resuelta a partir de la notebook oficial. Contiene los ocho ejercicios, el módulo reutilizable y el reporte JSON solicitado.
+Usé la notebook oficial para resolver los ocho ejercicios. También están el módulo y el reporte JSON que pide la práctica.
 
 ## Archivos
 
@@ -9,16 +9,16 @@ Práctica resuelta a partir de la notebook oficial. Contiene los ocho ejercicios
 - `reporte_ejercicio_8.json`: reporte serializado y reconstruido en el ejercicio 8.
 - `requirements.txt`: versiones indicadas en el material del profesor.
 
-## Comprobaciones realizadas
+## Comprobaciones
 
-La notebook se ejecutó completa con Python 3.12.3. Sus 36 celdas de código terminaron sin errores.
+Ejecuté la notebook completa con Python 3.12.3 y sus 36 celdas de código terminaron sin errores.
 
 ```text
 code_cells=36 executed=36 errors=0
 accepted=2 issues=4
 ```
 
-El módulo también pasó el análisis estático solicitado:
+También ejecuté la comprobación de mypy que pide el ejercicio:
 
 ```bash
 python -m mypy --strict lesson_models.py
@@ -28,8 +28,8 @@ python -m mypy --strict lesson_models.py
 Success: no issues found in 1 source file
 ```
 
-La notebook también comprueba que un registro con dos campos inválidos produce dos incidencias en la misma posición. El archivo JSON conserva el reporte principal de la práctica y su reconstrucción se verifica correctamente.
+El registro con dos campos inválidos genera dos errores en la misma posición, pero cuenta como un solo registro rechazado. El reporte se guarda en JSON y se puede volver a cargar.
 
 ## Estado
 
-**Resuelta y verificada; no enviada al formulario.**
+**Terminada y probada; todavía no enviada al formulario.**

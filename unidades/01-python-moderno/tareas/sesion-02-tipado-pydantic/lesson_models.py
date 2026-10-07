@@ -111,7 +111,6 @@ def select_predictions(report: BatchReport) -> list[Prediction]:
 
 
 def count_labels(predictions: list[Prediction]) -> dict[str, int]:
-    """Count validated predictions by label."""
     counts: dict[str, int] = {}
     for prediction in predictions:
         counts[prediction.label] = counts.get(prediction.label, 0) + 1
