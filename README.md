@@ -16,6 +16,7 @@ Construir software que valide información, transforme datos y conecte component
 | [Proyecto integrador](proyecto-integrador/) | Solución local completa | Integración, documentación y presentación | 20 % |
 
 El acceso directo a los trabajos listos para revisar está en **[ENTREGAS.md](ENTREGAS.md)**.
+Para repasar las grabaciones sin verlas completas, usa la **[ruta rápida de las clases 1 a 9](RUTA-RAPIDA-VIDEOS.md)**.
 
 ## Organización del repositorio
 
