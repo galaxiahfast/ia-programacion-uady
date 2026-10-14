@@ -18,12 +18,13 @@ La fecha límite actualizada de la Unidad 3 es el **19 de octubre de 2026**.
 ## Materiales
 
 - [Apuntes](apuntes/)
+- [Clases](clases/)
 - [Ejercicios](ejercicios/)
 - [Tareas](tareas/)
 
 ## Progreso
 
-- [ ] SQL con Python
-- [ ] Neo4j
+- [x] SQL con Python — sesión 1 resuelta; no enviada
+- [x] Neo4j — demostración revisada; no tiene ejercicios obligatorios
 - [ ] Interfaces
-- [ ] Orquestación
+- [x] Orquestación — sesión 2 de LangGraph resuelta; no enviada

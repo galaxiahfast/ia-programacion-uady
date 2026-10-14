@@ -1,5 +1,10 @@
 # Tareas de la Unidad 2
 
+- [Sesión 1 · NumPy](sesion-01-numpy/) — resuelta, no enviada.
+- [Sesión 2 · pandas](sesion-02-pandas/) — resuelta, no enviada.
+- [Sesión 3 · PyTorch](sesion-03-pytorch/) — resuelta, no enviada.
+- [Sesión 4 · visualización](sesion-04-visualizacion/) — resuelta, no enviada.
+
 Evidencias evaluables de procesamiento y representación de datos.
 
 ## Estado

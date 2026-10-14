@@ -27,4 +27,4 @@ La fecha límite actualizada de la Unidad 2 es el **19 de octubre de 2026**.
 - [x] NumPy — sesión 1 resuelta; no enviada
 - [x] Pandas y datasets — sesión 2 resuelta; no enviada
 - [x] Formatos y tensores — sesión 3 resuelta; no enviada
-- [ ] Matplotlib
+- [x] Matplotlib — sesión 4 resuelta; no enviada
