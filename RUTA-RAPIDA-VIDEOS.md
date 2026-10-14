@@ -1,4 +1,4 @@
-# Ruta rápida para ver las clases 1 a 11
+# Ruta rápida para ver las clases 1 a 13
 
 Esta selección evita configuraciones, pausas, dudas repetidas y resolución mecánica de ejercicios que ya están terminados en el repositorio. Conserva las explicaciones que ayudan a entender el curso.
 
@@ -8,7 +8,7 @@ Esta selección evita configuraciones, pausas, dudas repetidas y resolución mec
 - Después de cada clase lee su resumen; no regreses al video si el concepto ya quedó claro.
 - No copies el código mientras ves el video. Las prácticas resueltas sirven para revisarlo después.
 
-La ruta contiene aproximadamente **9 horas y 25 minutos** de video. A `1.5x` toma cerca de **6 horas y 17 minutos**; a `1.75x`, unas **5 horas y 23 minutos**.
+La ruta contiene aproximadamente **11 horas y 51 minutos** de video. A `1.5x` toma cerca de **7 horas y 54 minutos**; a `1.75x`, unas **6 horas y 46 minutos**.
 
 ## Tramos indispensables
 
@@ -104,6 +104,25 @@ El repaso de tensores entre `15:06 y 35:30` es opcional porque ya se introdujero
 
 Los primeros 10 minutos son aclaraciones administrativas. El repaso de CIFAR-10 entre `11:00 y 28:30` es opcional porque ya aparece en la clase 10.
 
+### Clase 12 · Matplotlib y SQLite — 1 hora 12 minutos
+
+- `01:30 a 18:30`: `Figure`, `Axes` y personalización de gráficas.
+- `27:00 a 42:30`: histogramas, barras y porcentajes.
+- `50:45 a 53:15`: guardar figuras.
+- `1:05:20 a 1:26:15`: SQLite, conexiones y consultas parametrizadas.
+- `1:30:00 a 1:46:55`: transacciones, rollback y consultas con pandas.
+
+Puedes omitir las preguntas administrativas entre ambos temas y la introducción final a Neo4j, que se desarrolla en la clase 13.
+
+### Clase 13 · Neo4j y LangGraph — 1 hora 14 minutos
+
+- `00:19 a 23:00`: grafos, nodos, relaciones y sintaxis de Cypher.
+- `27:30 a 50:10`: casos de uso y consultas desde Python.
+- `1:17:40 a 1:36:30`: estado, nodos y aristas en LangGraph.
+- `1:42:30 a 1:58:30`: rutas condicionales y construcción del flujo.
+
+El bloque intermedio contiene principalmente preguntas sobre casos de uso y detalles internos de Neo4j. Revísalo solo si te interesa profundizar en bases de datos de grafos.
+
 ## Orden recomendado por días
 
 Para no saturarte, divide la ruta así:
@@ -114,6 +133,8 @@ Para no saturarte, divide la ruta así:
 4. **NumPy:** clases 7 y 8 — aproximadamente 1 hora y 33 minutos a `1.5x`.
 5. **pandas y proyecto final:** clase 9 — aproximadamente 49 minutos a `1.5x`.
 6. **PyTorch:** clases 10 y 11 — aproximadamente 1 hora y 31 minutos a `1.5x`.
+7. **Visualización y bases de datos:** clase 12 — aproximadamente 48 minutos a `1.5x`.
+8. **Grafos y orquestación:** clase 13 — aproximadamente 49 minutos a `1.5x`.
 
 ## Qué puedes omitir sin preocupación
 
