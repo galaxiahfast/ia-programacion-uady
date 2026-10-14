@@ -1,4 +1,4 @@
-# Ruta rápida para ver las clases 1 a 9
+# Ruta rápida para ver las clases 1 a 11
 
 Esta selección evita configuraciones, pausas, dudas repetidas y resolución mecánica de ejercicios que ya están terminados en el repositorio. Conserva las explicaciones que ayudan a entender el curso.
 
@@ -8,7 +8,7 @@ Esta selección evita configuraciones, pausas, dudas repetidas y resolución mec
 - Después de cada clase lee su resumen; no regreses al video si el concepto ya quedó claro.
 - No copies el código mientras ves el video. Las prácticas resueltas sirven para revisarlo después.
 
-La ruta contiene aproximadamente **7 horas y 7 minutos** de video. A `1.5x` toma cerca de **4 horas y 45 minutos**; a `1.75x`, unas **4 horas y 4 minutos**.
+La ruta contiene aproximadamente **9 horas y 25 minutos** de video. A `1.5x` toma cerca de **6 horas y 17 minutos**; a `1.75x`, unas **5 horas y 23 minutos**.
 
 ## Tramos indispensables
 
@@ -66,7 +66,16 @@ Puedes saltar la creación del proyecto comando por comando y el recorrido compl
 
 Esta es una de las clases que menos conviene recortar. El bloque inicial sobre pytest, Ruff y mypy puede omitirse porque esas herramientas ya aparecen en la clase 6 y en los proyectos.
 
-### Clase 8 · Proyecto final y pandas — 1 hora 13 minutos
+### Clase 8 · Copias, vectorización y broadcasting — 1 hora 7 minutos
+
+- `00:00 a 21:30`: vistas, copias, slices y máscaras.
+- `21:30 a 33:40`: operaciones vectorizadas.
+- `33:40 a 46:20`: reglas de broadcasting, transposición y errores de forma.
+- `47:15 a 1:08:00`: datos finitos, `NaN`, infinito, `all` y `any`.
+
+El resto resuelve los ejercicios de NumPy e inicia pandas. Puedes omitirlo porque la práctica está terminada y la clase 9 explica pandas con más detalle.
+
+### Clase 9 · Proyecto final y pandas — 1 hora 13 minutos
 
 - `00:30 a 13:40`: proyecto final, embeddings, búsqueda semántica y herramientas MCP.
 - `23:40 a 33:25`: carga del Titanic, forma, tipos e información general.
@@ -74,16 +83,26 @@ Esta es una de las clases que menos conviene recortar. El bloque inicial sobre p
 - `48:40 a 1:08:30`: datos faltantes, `dropna`, `fillna` y agrupaciones.
 - `1:08:30 a 1:23:30`: `merge` y preparación de arreglos para NumPy.
 
-Omite la introducción a PyTorch del final: la clase 9 la retoma con más detalle.
+Omite la introducción a PyTorch del final: la clase 10 la retoma con más detalle.
 
-### Clase 9 · DataLoader y CIFAR-10 — 1 hora 6 minutos
+### Clase 10 · DataLoader y CIFAR-10 — 1 hora 6 minutos
 
 - `35:30 a 48:55`: `TensorDataset`, `DataLoader`, lotes y `drop_last`.
 - `1:07:20 a 1:28:55`: `shuffle` reproducible con generadores y semillas.
 - `1:28:55 a 1:49:15`: CIFAR-10, imágenes, tensores y transformaciones.
 - `1:49:15 a 2:00:16`: dataset propio y carga bajo demanda.
 
-El repaso de tensores entre `15:06 y 35:30` es opcional porque ya se introdujeron en la clase 8. Los primeros 15 minutos son soporte técnico y cambios de fechas.
+El repaso de tensores entre `15:06 y 35:30` es opcional porque ya se introdujeron en la clase 9. Los primeros 15 minutos son soporte técnico y cambios de fechas.
+
+### Clase 11 · Embeddings y búsqueda semántica — 1 hora 11 minutos
+
+- `31:30 a 46:30`: medias por imagen y canal, ejes y normalización.
+- `46:30 a 59:00`: operaciones y conversiones útiles de tensores.
+- `1:00:00 a 1:09:00`: concepto de embedding y codificación de textos.
+- `1:20:00 a 1:43:30`: búsqueda semántica, normalización, similitud y mejores resultados.
+- `1:43:30 a 1:54:15`: aplicación directa al proyecto final.
+
+Los primeros 10 minutos son aclaraciones administrativas. El repaso de CIFAR-10 entre `11:00 y 28:30` es opcional porque ya aparece en la clase 10.
 
 ## Orden recomendado por días
 
@@ -92,9 +111,9 @@ Para no saturarte, divide la ruta así:
 1. **Python:** clases 1 y 2 — aproximadamente 44 minutos a `1.5x`.
 2. **Validación:** clases 3 y 4 — aproximadamente 44 minutos a `1.5x`.
 3. **Concurrencia y proyectos:** clases 5 y 6 — aproximadamente 56 minutos a `1.5x`.
-4. **NumPy:** clase 7 — aproximadamente 48 minutos a `1.5x`.
-5. **pandas y proyecto final:** clase 8 — aproximadamente 49 minutos a `1.5x`.
-6. **PyTorch:** clase 9 — aproximadamente 44 minutos a `1.5x`.
+4. **NumPy:** clases 7 y 8 — aproximadamente 1 hora y 33 minutos a `1.5x`.
+5. **pandas y proyecto final:** clase 9 — aproximadamente 49 minutos a `1.5x`.
+6. **PyTorch:** clases 10 y 11 — aproximadamente 1 hora y 31 minutos a `1.5x`.
 
 ## Qué puedes omitir sin preocupación
 

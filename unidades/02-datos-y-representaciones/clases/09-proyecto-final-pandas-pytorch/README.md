@@ -1,4 +1,4 @@
-# Clase 8 - Proyecto final, pandas y PyTorch
+# Clase 9 - Proyecto final, pandas y PyTorch
 
 La grabación dura cerca de 2 horas. Al principio se explica el proyecto final; después se trabaja con el Titanic en pandas y al final se inicia el tema de tensores y conjuntos de datos en PyTorch.
 
@@ -28,7 +28,7 @@ El resultado se expone mediante un servidor MCP por HTTP en `http://127.0.0.1:80
 - `analyze_product(product_id)`: resume la información y reseñas de un producto;
 - `compare_products(product_ids)`: compara varios productos.
 
-No basta con que funcione en la notebook. El código debe separarse en módulos, tener errores claros, pasar mypy en modo estricto e incluir instrucciones de instalación, ejemplos y limitaciones. En la clase 9 la fecha límite se cambió al **26 de octubre de 2026**.
+No basta con que funcione en la notebook. El código debe separarse en módulos, tener errores claros, pasar mypy en modo estricto e incluir instrucciones de instalación, ejemplos y limitaciones. En la clase 10 la fecha límite se cambió al **26 de octubre de 2026**.
 
 ## Lo principal de pandas
 

@@ -1,4 +1,4 @@
-# Clase 9 - PyTorch, DataLoader y CIFAR-10
+# Clase 10 - PyTorch, DataLoader y CIFAR-10
 
 Esta grabación sí es nueva y dura cerca de 2 horas. Primero se resolvió un problema con el kernel de VS Code y se acordaron nuevas fechas de entrega. Después se retomó PyTorch: tensores, datasets, lotes, orden aleatorio reproducible y transformaciones de imágenes.
 
