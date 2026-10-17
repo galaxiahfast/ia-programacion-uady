@@ -30,7 +30,7 @@ Neo4j y la sesión de agentes son opcionales y no tienen archivo obligatorio. La
 
 Formulario: https://docs.google.com/forms/d/e/1FAIpQLSew4UpE94kmWvK5M54-ubF1aeTqbk5SMOQ1IfDjdBiingDWFw/viewform?usp=publish-editor
 
-Sube [Proyecto_Final_MCP.zip](proyecto-final/Proyecto_Final_MCP.zip). Incluye el código, datos, configuración, lockfile, pruebas y evidencia de las comprobaciones. La fecha límite es el **26 de octubre de 2026 al final del día**.
+Sube [Proyecto_Final_MCP.zip](proyecto-final/Proyecto_Final_MCP.zip). Incluye el código, datos, configuración, lockfile, pruebas y dos evidencias: las comprobaciones automáticas y la ejecución real de las tres herramientas mediante el cliente MCP. La fecha límite es el **26 de octubre de 2026 al final del día**.
 
 ## Revisión hecha
 
