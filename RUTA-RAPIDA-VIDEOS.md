@@ -1,4 +1,4 @@
-# Ruta rápida para ver las clases 1 a 13
+# Ruta rápida para ver las clases 1 a 15
 
 Esta selección evita configuraciones, pausas, dudas repetidas y resolución mecánica de ejercicios que ya están terminados en el repositorio. Conserva las explicaciones que ayudan a entender el curso.
 
@@ -8,7 +8,7 @@ Esta selección evita configuraciones, pausas, dudas repetidas y resolución mec
 - Después de cada clase lee su resumen; no regreses al video si el concepto ya quedó claro.
 - No copies el código mientras ves el video. Las prácticas resueltas sirven para revisarlo después.
 
-La ruta contiene aproximadamente **11 horas y 51 minutos** de video. A `1.5x` toma cerca de **7 horas y 54 minutos**; a `1.75x`, unas **6 horas y 46 minutos**.
+La ruta contiene aproximadamente **13 horas y 14 minutos** de video. A `1.5x` toma cerca de **8 horas y 49 minutos**; a `1.75x`, unas **7 horas y 34 minutos**.
 
 ## Tramos indispensables
 
@@ -123,6 +123,25 @@ Puedes omitir las preguntas administrativas entre ambos temas y la introducción
 
 El bloque intermedio contiene principalmente preguntas sobre casos de uso y detalles internos de Neo4j. Revísalo solo si te interesa profundizar en bases de datos de grafos.
 
+### Clase 14 · Paralelismo y agentes — 1 hora 5 minutos
+
+- `00:23 a 11:55`: paralelismo y reductores de estado.
+- `12:00 a 22:45`: saltos con `Command` y composición mediante subgrafos.
+- `27:00 a 39:15`: modelo, herramientas, mensajes y ciclo ReAct.
+- `52:30 a 1:17:30`: creación de herramientas y agente de demostración.
+- `1:34:45 a 1:38:30`: conexión entre MCP y un agente.
+
+El bloque sobre middleware es útil pero opcional. Esta sesión no añade ejercicios obligatorios.
+
+### Clase 15 · Repaso del proyecto final — 18 minutos
+
+- `00:08 a 04:30`: estructura, archivos y dependencias del proyecto.
+- `04:30 a 08:15`: embeddings combinados de productos y reseñas.
+- `08:15 a 12:20`: servidor MCP, herramientas y demostración.
+- `12:37 a 18:20`: entrega, evaluación y manejo de entradas inválidas.
+
+El resto de la grabación es una conversación general sobre portafolio, agentes y el uso profesional de IA. Puedes verlo por interés, pero no contiene requisitos adicionales de entrega.
+
 ## Orden recomendado por días
 
 Para no saturarte, divide la ruta así:
@@ -135,6 +154,8 @@ Para no saturarte, divide la ruta así:
 6. **PyTorch:** clases 10 y 11 — aproximadamente 1 hora y 31 minutos a `1.5x`.
 7. **Visualización y bases de datos:** clase 12 — aproximadamente 48 minutos a `1.5x`.
 8. **Grafos y orquestación:** clase 13 — aproximadamente 49 minutos a `1.5x`.
+9. **Agentes:** clase 14 — aproximadamente 43 minutos a `1.5x`.
+10. **Cierre y proyecto final:** clase 15 — aproximadamente 12 minutos a `1.5x`.
 
 ## Qué puedes omitir sin preocupación
 

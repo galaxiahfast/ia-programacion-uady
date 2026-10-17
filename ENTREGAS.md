@@ -2,7 +2,7 @@
 
 Este archivo es el punto de entrada para revisar las evidencias evaluables. Solo deben enlazarse aquí trabajos terminados o listos para retroalimentación.
 
-> Última verificación del repositorio oficial: **14 de octubre de 2026**.
+> Última verificación con las clases del curso: **17 de octubre de 2026**.
 
 | Evidencia | Valor | Estado | Fecha límite | Instrucciones | Entrega |
 | --- | ---: | --- | --- | --- | --- |
